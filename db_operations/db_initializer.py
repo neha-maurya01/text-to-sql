@@ -1,4 +1,3 @@
-# db_initializer.py
 from db_operations.db_connector import connect_to_db, close_connection
 from utils.sql_queries import create_table_query, insert_records_query
 
