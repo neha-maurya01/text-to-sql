@@ -10,9 +10,15 @@ question = st.text_input("Input: ", key="input")
 submit = st.button("Ask the question")
 
 if submit:
-    response_sql = get_response_as_sql_query(question,system_prompt)
-    data = get_query_response_as_text(response_sql)
+    with st.spinner("Loading SQL code..."):
+        response_sql = get_response_as_sql_query(question, system_prompt)
+
+    st.subheader("SQL Code:")
+    st.code(response_sql)
+
+    with st.spinner("Loading data..."):
+        data = get_query_response_as_text(response_sql)
+
     st.subheader("The response is: ")
     for row in data:
-        print(row)
         st.write(row)
