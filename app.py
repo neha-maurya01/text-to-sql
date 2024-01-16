@@ -3,9 +3,6 @@ from utils.prompts import system_prompt
 import streamlit as st
 
 configure_gemini()
-# a = get_response_as_sql_query(user_prompt="how many total student are there",system_prompt=system_prompt)
-# print(a)
-# print(get_query_response_as_text(a))
 
 st.set_page_config(page_title="Text to SQL query Generator")
 st.header("Database Retriever")
