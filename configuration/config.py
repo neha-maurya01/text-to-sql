@@ -11,5 +11,8 @@ def load_api_key():
    Returns:
        str: The API key value, or None if the key is not found.
    """
+    # Load the environment variables from the .env file
     load_dotenv()
-    return os.environ.get("API_KEY")
+    # Retrieve the API key from the environment variables
+    api_key = os.environ.get("API_KEY")
+    return api_key

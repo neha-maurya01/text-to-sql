@@ -1,4 +1,11 @@
-# src/utils/sql_queries.py
+"""
+    Define SQL queries for table creation and data insertion.
+
+    - create_table_query: Constructs the 'student' table with specified columns.
+    - insert_records_query: Populates the table with initial student data.
+
+    These queries are ready for execution within database operations.
+    """
 create_table_query = """
 CREATE TABLE IF NOT EXISTS student (NAME VARCHAR(25),
                     CLASS INT,
