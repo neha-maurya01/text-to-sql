@@ -12,7 +12,7 @@ This project is a Text-to-SQL application designed to generate SQL queries based
   - [Environment Setup](#environment-setup)
   - [API Key](#api-key)
   - [Running the Application](#running-the-application)
-
+- [Usage](#usage)
 - [Contributing](#contributing)
   - [Bug Reports and Feature Requests](#bug-reports-and-feature-requests)
   - [Code Contributions](#code-contributions)
@@ -71,7 +71,7 @@ The project is organized into several directories:
     ```
 4. **create a .env file in project root, and write:**
 ```bash
-GOOGLE_API_KEY = 'your_api_key_here'
+API_KEY = 'your_api_key_here'
 ```
 
 ### API Key
@@ -104,7 +104,7 @@ Contributions are most welcomed. If you're interested in improving this project,
 
 ### Bug Reports and Feature Requests
 
-If you come across any issues or have ideas for new features, please let me know by [opening an issue](https://github.com/Deepak-porwal04/multiple-pdf-chatbot/issues). Provide detailed information about the problem or your feature request, and we'll do our best to address it.
+If you come across any issues or have ideas for new features, please let me know by [opening an issue](https://github.com/Deepak-porwal04/text-to-sql/issues). Provide detailed information about the problem or your feature request, and we'll do our best to address it.
 
 ### Code Contributions
 
